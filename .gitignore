@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+.build
+
+# debug
+npm-debug.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# idea
+/**/.idea/*
+
+# typescript
+*.tsbuildinfo
