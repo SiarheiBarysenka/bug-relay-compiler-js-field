@@ -1,0 +1,27 @@
+{
+  "name": "bug-relay-compiler-js-field",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "relay": "relay-compiler",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^16.8.2",
+    "relay-runtime": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/node": "^20.14.7",
+    "@types/react": "^18.3.3",
+    "@types/react-relay": "^16.0.6",
+    "babel-plugin-relay": "^17.0.0",
+    "relay-compiler": "^17.0.0",
+    "typescript": "^5.5.2"
+  }
+}
